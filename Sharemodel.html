@@ -2,37 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Share Modal</title>
-
-   
-
-    <!-- Link CSS  -->
+    <title>Document</title>
     <link rel="stylesheet" href="Sharemodel.css" />
-
-    <!-- link JS  -->
-    <script src="Sharemodel.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <!-- wrapper -->
-
     <div class="wrapper">
       <!-- circles  -->
       <div class="circle1"></div>
       <div class="circle2"></div>
       <div class="container">
         <!-- Image -->
-        <div><img src="" alt="Hero " /></div>
+        <div><img src="https://res.cloudinary.com/dvclc1dpd/image/upload/v1749641570/my_image_lrjkux.jpg" alt="Hero " /></div>
 
         <!-- Heading -->
         <div class="userName">
-          <h2>Priyansh Patel</h2>
+          <h2>Piyush Badgujar</h2>
         </div>
 
         <!-- designation  -->
         <div class="designation">
-          <h3>Software Engineer</h3>
+          <h3>Web-Developer</h3>
         </div>
 
         <!-- Button Group  -->
@@ -43,36 +40,33 @@
           </button>
 
           <button class="btn btnFollow">
-            <a href="https://www.linkedin.com/in/-priyanshpatel/">Follow Me</a>
+            <a href="">Follow Me</a>
           </button>
         </div>
       </div>
     </div>
 
-    <!-- Modal Component  -->
+    <!-- modal -->
     <div class="modal">
       <div class="modalHeader">
         <h1>Share My Profile</h1>
-        <div>
-          <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
-        </div>
+        <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
       </div>
-
       <div>
         <h3>Share this via</h3>
         <div class="iconContainer">
           <a
-            href="https://www.facebook.com/priyansh.patel.94651"
+            href=""
             class="icon"
             id="facebook"
           >
             <i class="fa-brands fa-facebook-f"></i>
           </a>
-          <a href="https://twitter.com/priyansh79" class="icon" id="twitter">
+          <a href="" class="icon" id="twitter">
             <i class="fa-brands fa-twitter"></i>
           </a>
           <a
-            href="https://www.instagram.com/_p_r_i_y_a_n_s_h/"
+            href=""
             class="icon"
             id="instagram"
           >
@@ -81,20 +75,16 @@
           <a href="https://web.whatsapp.com/" class="icon" id="whatsapp">
             <i class="fa-brands fa-whatsapp"></i>
           </a>
-          <a href="https://web.telegram.org/z/" class="icon" id="telegram">
-            <i class="fa-brands fa-telegram"></i>
+          <a href="https://www.linkedin.com/in/piyush-badgujar-jalgaon/" class="icon" id="linkedin">
+
+            <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
       </div>
     </div>
 
-    <!-- Overlay  -->
-    <div class="overlay" onclick="closeModal()"></div>
-
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/58a810656e.js"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Overlay -->
+     <div class="overlay" onclick="closeModal()"></div>
+    <script src="Sharemodel.js"></script>
   </body>
 </html>
