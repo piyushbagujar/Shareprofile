@@ -77,7 +77,7 @@ html, body {
 }
 
 .container div:nth-child(1){
-    border: 2pX solid #ffffff1a;
+    border: 2px solid #ffffff1a;
     width: 150px;
     height: 150px;
     border-radius: 50%;
